@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" onsubmit="uploadFile(event)">
+        <input type="file" name="file" id="file">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="b64" style="width: 100%; word-break: break-all"></p>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./uploadFile/uploadFile.js"></script>
+</body>
+</html>
