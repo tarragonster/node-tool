@@ -13,12 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1031.0",
-    "axios": "^0.24.0",
+    "axios": "^0.26.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "himalaya": "^1.1.0",
+    "ipfs-http-client": "^56.0.1",
+    "json-2-csv": "^3.15.0",
     "live-server": "^1.2.1",
+    "node-html-parser": "^5.1.0",
+    "puppeteer": "^13.0.0",
     "sqs-consumer": "^5.6.0"
   }
 }

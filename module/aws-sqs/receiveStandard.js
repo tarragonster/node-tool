@@ -3,7 +3,7 @@ import { Consumer } from 'sqs-consumer';
 
 //standard
 const sqs = new AWS.SQS(); // sqs tutorial https://stackabuse.com/message-queueing-in-node-js-with-aws-sqs/
-const queueUrl = "https://sqs.ap-southeast-1.amazonaws.com/002177319941/aToolQueue";
+const queueUrl = "https://sqs.us-east-1.amazonaws.com/548704797418/huuk-dev-market";
 
 // Create our consumer
 const app = Consumer.create({

@@ -3,9 +3,8 @@ const uploadFile = (event) => {
 
   const FR = new FileReader();
   const imagefile = document.querySelector('#file');
-
+  console.log(imagefile.files[0])
   FR.readAsDataURL( imagefile.files[0] );
-
   FR.addEventListener("load", async function(e) {
     document.getElementById("b64").innerHTML = e.target.result;
 
